@@ -4,7 +4,8 @@ html {
   --color-3: #eceadd;
   --color-4: #f7f8f5;
   --color-5: #fff;
-
+  --color-6: #000;
+   
   --gap-s: 0.625rem;
   --gap: 1.25rem;
 }
