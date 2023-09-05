@@ -23,6 +23,10 @@ body {
   background: var(--color-5);
 }
 
+.logo {
+  width: 60%;
+}
+
 button {
   font-family: sans-serif;
   cursor: pointer;

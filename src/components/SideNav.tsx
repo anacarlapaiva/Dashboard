@@ -1,10 +1,11 @@
 import { NavLink } from 'react-router-dom'
+import LogoImg from '../assets/image/logo.png'
 
 const SideNav = () => {
   return (
     <nav className='sidenav box bg-3'>
       <span className='mb'>
-        Fintech Logo
+        <img className="logo" src={LogoImg} alt="logo da aplicação" />
       </span>
 
       <ul>
@@ -13,18 +14,6 @@ const SideNav = () => {
         </li>
         <li>
           <NavLink to={'/vendas'}>Vendas</NavLink>
-        </li>
-        <li>
-          <a >WebHooks</a>
-        </li>
-        <li>
-          <a>Configurações</a>
-        </li>
-        <li>
-          <a>Contato</a>
-        </li>
-        <li>
-          <a>Sair</a>
         </li>
       </ul>
     </nav>
